@@ -5,10 +5,13 @@ body {
 h1 {
   color: navy;
   margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .paragraph{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .center {
