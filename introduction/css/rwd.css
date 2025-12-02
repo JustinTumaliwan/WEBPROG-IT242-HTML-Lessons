@@ -15,13 +15,13 @@ body {
     'main'
     'facts'
     'footer';
-  background-color: white;
+  background-color: #D6F4ED;
   gap: 10px;  
 }
 
 .header {
   grid-area: header;
-  background-color: purple;
+  background-color: #473472;
   text-align: center;
   color: #ffffff;
 }
@@ -43,7 +43,7 @@ body {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
+  background-color: #87BAC3;
   color: #ffffff;
 }
 
@@ -66,8 +66,8 @@ body {
 
 .facts {
   grid-area: facts;
-  border: 1px solid #0099cc;
-  background-color: beige;
+  border: 1px solid #87BAC3;
+  background-color: #87BAC3;
   padding: 10px;
 }
 
@@ -81,7 +81,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: #0099cc;
+  background-color: #87BAC3;
   color: #ffffff;
   text-align: center;
 }
