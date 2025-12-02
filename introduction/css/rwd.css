@@ -44,7 +44,7 @@ body {
   padding: 8px;
   margin-bottom: 7px;
   background-color: #87BAC3;
-  color: #ffffff;
+  color: black;
 }
 
 .menu li:hover {
@@ -82,7 +82,7 @@ body {
 .footer {
   grid-area: footer;
   background-color: #87BAC3;
-  color: #ffffff;
+  color: black;
   text-align: center;
 }
 
