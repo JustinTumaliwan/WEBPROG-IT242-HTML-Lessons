@@ -89,25 +89,55 @@
     <section id="hobbies" class="content-section dark-bg">
         <div class="container">
             <h2 class="section-title">My <span>Hobbies</span></h2>
-            <div class="card-grid">
-                <div class="card hobby-card">
-                    <div class="icon">🎮</div>
-                    <h3>Gaming</h3>
-                    <p>Exploring open-world RPGs and competitive strategy games.</p>
-                </div>
-                <div class="card hobby-card">
-                    <div class="icon">📸</div>
-                    <h3>Photography</h3>
-                    <p>Capturing urban landscapes and street life around me.</p>
-                </div>
-                <div class="card hobby-card">
-                    <div class="icon">🏀</div>
-                    <h3>Sports</h3>
-                    <p>Staying active and practicing teamwork through local community games.</p>
+            
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="card hobby-card" onclick="openModal('Gaming.jpg')">
+                        <div class="icon">🎮</div>
+                        <h3>Gaming</h3>
+                        <p>I mostly play a lot of variety of online games with my friends but I enjoy the casual single player games.</p>
+                    </div>
+                    <div class="card hobby-card" onclick="openModal('SimRacing.jpg')">
+                        <div class="icon">🏁</div>
+                        <h3>Sim-Racing</h3>
+                        <p>As an F1 fan, I enjoy the challenge of high-speed competition and experiencing it in a virtual environment.</p>
+                    </div>
+                    <div class="card hobby-card" onclick="openModal('Photography.jpg')">
+                        <div class="icon">📸</div>
+                        <h3>Photography</h3>
+                        <p>Capturing urban landscapes and street life around me.</p>
+                    </div>
+                    <div class="card hobby-card" onclick="openModal('Sports.jpg')">
+                        <div class="icon">🎾</div>
+                        <h3>Sports</h3>
+                        <p>Staying active and practicing teamwork through different sports but recently Pickleball.</p>
+                    </div>
+                    <div class="card hobby-card" onclick="openModal('Gym.jpg')">
+                        <div class="icon">💪</div>
+                        <h3>Gym</h3>
+                        <p>I spend my time at the gym focusing on weightlifting and running to stay sharp and energized.</p>
+                    </div>
+                    <div class="card hobby-card" onclick="openModal('Exploring Food.jpg')">
+                        <div class="icon">🍔</div>
+                        <h3>Exploring Food</h3>
+                        <p>I love exploring diverse cuisines, discovering hidden local gems, and experiencing different cultures through their flavors.</p>
+                    </div>
+                    <div class="card hobby-card" onclick="openModal('travelling.jpg')">
+                        <div class="icon">📍</div>
+                        <h3>Travelling</h3>
+                        <p>I have a passion for exploring new destinations, seeking out unique landscapes and cultural experiences.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="js/script.js"></script>
 
     <section id="contact" class="content-section light-bg">
         <div class="container text-center">
