@@ -221,3 +221,21 @@ nav ul li a {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Styling for Project Link Wrappers */
+.project-card-link {
+    text-decoration: none;
+    color: inherit; /* Keeps text white in dark-bg */
+    display: block;
+}
+
+/* Ensure the hover effect from your original CSS applies correctly */
+.project-card-link:hover .card {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+}
+
+/* Optional: Add a slight glow to project cards on hover */
+.dark-bg .project-card-link:hover .card {
+    box-shadow: 0 10px 30px rgba(255, 159, 26, 0.2);
+}
